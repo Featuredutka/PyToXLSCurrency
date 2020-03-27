@@ -28,7 +28,7 @@ root = doc.getElementsByTagName("ValCurs")[0]
 # Извлечение данных по валютам
 currency = doc.getElementsByTagName("Valute")
 
-with open("/Users/ash/Desktop/CurrentCurrencyCource.xls", "w") as out:
+with open("CurrentCurrencyCource.xls", "w") as out:
     # out.write(date)
     # out.write(head)
     for rate in currency:
